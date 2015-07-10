@@ -1,7 +1,15 @@
-                         O R I O N M V C   P R O J E C T
- /-----------------------------------------------------------------------------\
-| GETTING STARTED                                                               |
- \-----------------------------------------------------------------------------/
+                                               *
+                        )      )    )        (  `           (
+                     ( /((  ( /( ( /(        )\))(  (   (   )\
+                     )\())( )\()))\())(     ((_)()\ )\  )\(((_)
+                    ((_)(()((_)\((_)\ )\ )  (_()((_|(_)((_)\___
+                    /  (_|(_) (_)  (_)(_/(  |  \/  \ \ / ((/ __|
+                   | () | '_| || () | ' \)) | |\/| |\ V / | (__
+                    \__/|_| |_| \__/|_||_|  |_|  |_| \_/   \___|
+
+-----------------------------------------------------------------------------------
+GETTING STARTED
+-----------------------------------------------------------------------------------
 Dependencies: NodeJS, Grunt, Bower, jQuery
 
 OrionMVC requires a few things to work properly. First, OrionMVC requires that
@@ -9,9 +17,15 @@ NodeJS be installed. Once installed, cd to the application/assets/libaries
 folder. run 'npm install -g grunt-cli' to install the Grunt Command Line Inter-
 face. Once done, run 'npm install -g bower' to get bower setup. Finally, have
 NodeJS fetch any dependencies via 'npm install && install bower'.
- /-----------------------------------------------------------------------------\
-| PROJECT FEATURES                                                              |
- \-----------------------------------------------------------------------------/
+
+-----------------------------------------------------------------------------------
+IMPORTANT
+-----------------------------------------------------------------------------------
+
+
+-----------------------------------------------------------------------------------
+PROJECT FEATURES
+-----------------------------------------------------------------------------------
 Traditional MVC separation of presentation from business logic. Shortens dev-
 elopment time by providing tools and classes to generate webpages quickly and
 easily. (Root/application/*)
@@ -32,14 +46,14 @@ Multilingual support is built-in at the core. Classes and sample data files are
 included which show how to expand the framework to support multiple languages.
 (Root/application/language)
 
- /-----------------------------------------------------------------------------\
-| CONTRIBUTING                                                                  |
- \-----------------------------------------------------------------------------/
+-----------------------------------------------------------------------------------
+CONTRIBUTING
+-----------------------------------------------------------------------------------
 Section Coming Soon - Contact Me
 
- /-----------------------------------------------------------------------------\
-| PROJECT STRUCTURE                                                             |
- \-----------------------------------------------------------------------------/
+-----------------------------------------------------------------------------------
+PROJECT STRUCTURE
+-----------------------------------------------------------------------------------
 /ROOT
 |__ APPLICATION
 |  |__assets (all of our front-end scripts, js, and style source)
@@ -71,9 +85,9 @@ Section Coming Soon - Contact Me
 |__LICENSE (The GPL License Terms)
 |__README (This File)
 
- /-----------------------------------------------------------------------------\
-| Copyright (C) 2015 | Derrick Wales & Contributors                             |
- \-----------------------------------------------------------------------------/
+-----------------------------------------------------------------------------------
+COPYRIGHT (C) 2015 | DERRICK WALES & CONTRIBUTORS
+-----------------------------------------------------------------------------------
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
@@ -87,3 +101,8 @@ GNU General Public License for more details.
 You should have received a copy of the GNU General Public License
 along with this program; if not, write to the Free Software
 Foundation, Inc., 51 Franklin Street, Fifth Floor, Boston, MA  02110-1301, USA.
+
+-----------------------------------------------------------------------------------
+MISCELLANY
+-----------------------------------------------------------------------------------
+TaaG @ http://patorjk.com

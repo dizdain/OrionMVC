@@ -63,5 +63,9 @@
                                     Controllers are prefixed with ctrl.*****.php (Controller).<br />
                                     Log files are prefixed with log.*****.php (Logs).<br />',
         'Documentation_title'   =>  'Orion Documentation',
-        'Task_list_title'       =>  'Project Task List'
+        'Task_list_title'       =>  'Project Task List',
+        'Home_title'            =>  'Home',
+        'About_title'           =>  'About OrionMVC',
+        'Contact_title'         =>  'Contact Us',
+        'License_title'         => 'OrionMVC License',
     );
