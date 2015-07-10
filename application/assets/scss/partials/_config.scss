@@ -1,0 +1,46 @@
+$prim-color:  #220044;
+$sec-color: #440077;
+$royalbkg: linear-gradient( to bottom, $prim-color 0%, $sec-color 100% );
+$white: #FFFFFF;
+$black: #000000;
+$graye: #eeeeee;
+$grayd: #dddddd;
+$grayc: #cccccc;
+$grayb: #bbbbbb;
+$graya: #aaaaaa;
+$gray9: #999999;
+$gray8: #888888;
+$gray7: #777777;
+$gray6: #666666;
+$gray5: #555555;
+$gray4: #444444;
+$gray3: #333333;
+$gray2: #222222;
+$gray1: #111111;
+
+$prebkg: #FAFAFA;
+
+$font: "Levenim MT" , sans-serif;
+$textfont: normal 100 14px/22px $font;
+$stylecurve: 0 50px 0 0;
+
+$header1: normal bold 36px/36px $font;
+$header2: normal bold 32px/32px $font;
+$header3: normal 500 28px/28px $font;
+$header4: normal 500 24px/24px $font;
+$header5: normal 500 20px/20px $font;
+$header6: normal 500 16px/16px $font;
+
+$small: normal 100 10px/10px $font;
+
+$default_shadow: -2px 2px 3px rgba(0,0,0,.5);
+@mixin placeholder( $color ) {
+  ::-webkit-input-placeholder { color: $color }
+  :-moz-placeholder { color: $color; opacity: 1; }
+  ::-moz-placeholder { color: $color; opacity: 1; }
+  :-ms-input-placeholder { color: $color; }
+}
+@mixin equate( $size ) {
+  height: $size;
+  width: $size;
+}

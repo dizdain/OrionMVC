@@ -1,0 +1,6 @@
+OrionMVC Application Changelog File
+0.0.0.1
+------------------------------------------------------------------------------------------------------------------------
+
+VERSION         DATE        AUTHOR              NOTES
+0.0.0.1         20150710    Dizdain             Initial Commit

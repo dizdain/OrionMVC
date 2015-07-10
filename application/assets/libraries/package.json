@@ -1,0 +1,18 @@
+{
+  "name": "QuizMe",
+  "version": "1.0.0",
+  "description": "A website utilizing the power of opinion.",
+  "main": "nexus.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "http://Aetiranos@bitbucket.org/Aetiranos/QuizMe.git"
+  },
+  "keywords": [
+    "Quiz",
+    "QuizMe"
+  ],
+  "author": "Derrick J. Wales"
+}

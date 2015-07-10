@@ -1,0 +1,1 @@
+<?php $dbc = mysqli_connect( DBHOST , DBUSER , DBPASS , DBNAME );
