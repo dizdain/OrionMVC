@@ -1,5 +1,56 @@
-Copyright (C) 2015 Derrick Wales
-
+O R I O N M V C   P R O J E C T
+-------------------------------------------------------------------------------
+| GETTING STARTED                                                             |
+-------------------------------------------------------------------------------
+OrionMVC requires a few things to work properly. First, OrionMVC requires that
+NodeJS be installed. Once installed, cd to the application/assets/libaries
+folder. run <code>npm install -g grunt-cli</code> to install the Grunt Command Line Inter-
+face. Once done, run 'npm install -g bower' to get bower setup. Finally, have
+NodeJS fetch any dependencies via 'npm install && install bower'.
+-------------------------------------------------------------------------------
+| PROJECT FEATURES                                                            |
+-------------------------------------------------------------------------------
+Coming Soon
+-------------------------------------------------------------------------------
+| CONTRIBUTING                                                                |
+-------------------------------------------------------------------------------
+Coming Soon
+-------------------------------------------------------------------------------
+| PROJECT STRUCTURE                                                           |
+-------------------------------------------------------------------------------
+/ROOT
+|__ APPLICATION
+|  |__assets (all of our front-end scripts, js, and style source)
+|  |  |__js (Non-minified JavaScript file(s))
+|  |  |__libraries (Third Party Libraries)
+|  |  |__SCSS
+|  |  |  |__partials (Partial SASS Files )
+|  |  |  |  |__config.scss (Site Style Configuration)
+|  |  |  |  |__structure.scss (Site Structure)
+|  |  |  |__app.scss (Imports all Partials)
+|  |  |__Gruntfile.js (Handles SASS Parsing and Minification)
+|  |  |__package.json (Required by Grunt)
+|  |__controllers (Where all of the MVC controllers are stored)
+|  |__logic (Where all of our non-DB business logic goes)
+|  |__logs (Where our custom ErrorHandler exception dumps go
+|  |__models (Where our DB business logic goes)
+|  |__views (Where our MVC view templates go)
+|  |__init.php (Our application initialization script)
+|__PUBLIC_WWW
+|  |__assets (All of the compiled CSS, JS, and images)
+|  |  |__css (Our grunt-generated minified CSS)
+|  |  |__images (Any images in our site)
+|  |  |__js (Our grunt-generated minified JavaScript)
+|  |  |__libraries (If we need'em, front-end libraries)
+|  |__.htaccess (For access and url rewriting)
+|  |__index.php (Our master controller)
+|__.gitignore (Keeps us from uploading things we don't need to.
+|__changelog.txt (May not actually be used this way, but a changelog nonetheless.
+|__LICENSE (The GPL License Terms)
+|__README (This File)
+-------------------------------------------------------------------------------
+Copyright (C) 2015 | Derrick Wales & Contributors
+-------------------------------------------------------------------------------
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
