@@ -1,23 +1,45 @@
-O R I O N M V C   P R O J E C T
--------------------------------------------------------------------------------
-| GETTING STARTED                                                             |
--------------------------------------------------------------------------------
+                         O R I O N M V C   P R O J E C T
+ /-----------------------------------------------------------------------------\
+| GETTING STARTED                                                               |
+ \-----------------------------------------------------------------------------/
+Dependencies: NodeJS, Grunt, Bower, jQuery
+
 OrionMVC requires a few things to work properly. First, OrionMVC requires that
 NodeJS be installed. Once installed, cd to the application/assets/libaries
-folder. run <code>npm install -g grunt-cli</code> to install the Grunt Command Line Inter-
+folder. run 'npm install -g grunt-cli' to install the Grunt Command Line Inter-
 face. Once done, run 'npm install -g bower' to get bower setup. Finally, have
 NodeJS fetch any dependencies via 'npm install && install bower'.
--------------------------------------------------------------------------------
-| PROJECT FEATURES                                                            |
--------------------------------------------------------------------------------
-Coming Soon
--------------------------------------------------------------------------------
-| CONTRIBUTING                                                                |
--------------------------------------------------------------------------------
-Coming Soon
--------------------------------------------------------------------------------
-| PROJECT STRUCTURE                                                           |
--------------------------------------------------------------------------------
+ /-----------------------------------------------------------------------------\
+| PROJECT FEATURES                                                              |
+ \-----------------------------------------------------------------------------/
+Traditional MVC separation of presentation from business logic. Shortens dev-
+elopment time by providing tools and classes to generate webpages quickly and
+easily. (Root/application/*)
+
+Includes Twitter Bootstrap built-in to reduce CSS code, provide easy-to-use
+grid and classes for responsive, mobile-first development, and JavaScript tools
+to make development easier. (Root/application/assets/libraries/bootstrap)
+
+SASS/SCSS is integrated at the heart of OrionMVC and is used to reduce coding
+time, provide variable and function capabilities in styles development, and
+allow for better encapsulation of classes and style rules. With Grunt, the SASS
+code is compiled and minified into CSS. (Root/application/assets/scss/*)
+
+jQuery+UI is pre-installed to speed up client-side scripting and interface dev-
+elopment. (Root/public_www/assets/js)
+
+Multilingual support is built-in at the core. Classes and sample data files are
+included which show how to expand the framework to support multiple languages.
+(Root/application/language)
+
+ /-----------------------------------------------------------------------------\
+| CONTRIBUTING                                                                  |
+ \-----------------------------------------------------------------------------/
+Section Coming Soon - Contact Me
+
+ /-----------------------------------------------------------------------------\
+| PROJECT STRUCTURE                                                             |
+ \-----------------------------------------------------------------------------/
 /ROOT
 |__ APPLICATION
 |  |__assets (all of our front-end scripts, js, and style source)
@@ -48,9 +70,10 @@ Coming Soon
 |__changelog.txt (May not actually be used this way, but a changelog nonetheless.
 |__LICENSE (The GPL License Terms)
 |__README (This File)
--------------------------------------------------------------------------------
-Copyright (C) 2015 | Derrick Wales & Contributors
--------------------------------------------------------------------------------
+
+ /-----------------------------------------------------------------------------\
+| Copyright (C) 2015 | Derrick Wales & Contributors                             |
+ \-----------------------------------------------------------------------------/
 This program is free software; you can redistribute it and/or
 modify it under the terms of the GNU General Public License
 as published by the Free Software Foundation; either version 2
